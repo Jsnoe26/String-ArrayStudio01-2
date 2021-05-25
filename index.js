@@ -10,7 +10,8 @@ console.log(str4 + str1);
 //a) Use string methods to remove the first three characters from the string and add them to the end.
 //Hint - define another variable to hold the new string or reassign the new string to str.
 console.log(`This will be ${str} and dont give up ${str}.`);
-
+input.question("What would you like removed?");
+console.log(input);
 
 //Use a template literal to print the original and modified string in a descriptive phrase.
 
